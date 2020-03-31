@@ -276,7 +276,7 @@ def _impl(ctx):
             ),
             flag_set(
                 actions = all_cpp_compile_actions,
-                flag_groups = [flag_group(flags = ["-std=c++17", "-stdlib=libc++"])],
+                flag_groups = [flag_group(flags = ["-std=c++2a", "-stdlib=libc++"])],
             ),
         ],
     )
